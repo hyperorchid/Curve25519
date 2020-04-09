@@ -1,0 +1,4 @@
+module LibCurve25519 [system] {
+  header "include/curve.h"
+  export *
+}
