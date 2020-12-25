@@ -12,6 +12,23 @@
 		694A09B824020DF6001F379C /* curve25519-donna-c64.c in Sources */ = {isa = PBXBuildFile; fileRef = 694A09B724020DF6001F379C /* curve25519-donna-c64.c */; };
 		694A09CA240221CA001F379C /* Curve25519.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694A09C9240221CA001F379C /* Curve25519.swift */; };
 		694A09D124024F0C001F379C /* curve.h in Headers */ = {isa = PBXBuildFile; fileRef = 694A09D024024ED3001F379C /* curve.h */; };
+		6971E27525958BF300B84481 /* key_exchange.c in Sources */ = {isa = PBXBuildFile; fileRef = 6971E26525958BF200B84481 /* key_exchange.c */; };
+		6971E27625958BF300B84481 /* seed.c in Sources */ = {isa = PBXBuildFile; fileRef = 6971E26625958BF200B84481 /* seed.c */; };
+		6971E27725958BF300B84481 /* fe.h in Headers */ = {isa = PBXBuildFile; fileRef = 6971E26725958BF300B84481 /* fe.h */; };
+		6971E27825958BF300B84481 /* fe.c in Sources */ = {isa = PBXBuildFile; fileRef = 6971E26825958BF300B84481 /* fe.c */; };
+		6971E27925958BF300B84481 /* sha512.c in Sources */ = {isa = PBXBuildFile; fileRef = 6971E26925958BF300B84481 /* sha512.c */; };
+		6971E27A25958BF300B84481 /* verify.c in Sources */ = {isa = PBXBuildFile; fileRef = 6971E26A25958BF300B84481 /* verify.c */; };
+		6971E27B25958BF300B84481 /* sc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6971E26B25958BF300B84481 /* sc.h */; };
+		6971E27C25958BF300B84481 /* ge.h in Headers */ = {isa = PBXBuildFile; fileRef = 6971E26C25958BF300B84481 /* ge.h */; };
+		6971E27D25958BF300B84481 /* precomp_data.h in Headers */ = {isa = PBXBuildFile; fileRef = 6971E26D25958BF300B84481 /* precomp_data.h */; };
+		6971E27E25958BF300B84481 /* sign.c in Sources */ = {isa = PBXBuildFile; fileRef = 6971E26E25958BF300B84481 /* sign.c */; };
+		6971E27F25958BF300B84481 /* sc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6971E26F25958BF300B84481 /* sc.c */; };
+		6971E28025958BF300B84481 /* ge.c in Sources */ = {isa = PBXBuildFile; fileRef = 6971E27025958BF300B84481 /* ge.c */; };
+		6971E28125958BF300B84481 /* fixedint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6971E27125958BF300B84481 /* fixedint.h */; };
+		6971E28225958BF300B84481 /* add_scalar.c in Sources */ = {isa = PBXBuildFile; fileRef = 6971E27225958BF300B84481 /* add_scalar.c */; };
+		6971E28325958BF300B84481 /* sha512.h in Headers */ = {isa = PBXBuildFile; fileRef = 6971E27325958BF300B84481 /* sha512.h */; };
+		6971E28425958BF300B84481 /* keypair.c in Sources */ = {isa = PBXBuildFile; fileRef = 6971E27425958BF300B84481 /* keypair.c */; };
+		6971E29225958E9000B84481 /* ED25519.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6971E29125958E9000B84481 /* ED25519.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +40,24 @@
 		694A09B924020EEE001F379C /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
 		694A09C9240221CA001F379C /* Curve25519.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curve25519.swift; sourceTree = "<group>"; };
 		694A09D024024ED3001F379C /* curve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = curve.h; sourceTree = "<group>"; };
+		6971E26225958BDB00B84481 /* ed25519.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ed25519.h; sourceTree = "<group>"; };
+		6971E26525958BF200B84481 /* key_exchange.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = key_exchange.c; sourceTree = "<group>"; };
+		6971E26625958BF200B84481 /* seed.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = seed.c; sourceTree = "<group>"; };
+		6971E26725958BF300B84481 /* fe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fe.h; sourceTree = "<group>"; };
+		6971E26825958BF300B84481 /* fe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fe.c; sourceTree = "<group>"; };
+		6971E26925958BF300B84481 /* sha512.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha512.c; sourceTree = "<group>"; };
+		6971E26A25958BF300B84481 /* verify.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = verify.c; sourceTree = "<group>"; };
+		6971E26B25958BF300B84481 /* sc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sc.h; sourceTree = "<group>"; };
+		6971E26C25958BF300B84481 /* ge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ge.h; sourceTree = "<group>"; };
+		6971E26D25958BF300B84481 /* precomp_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = precomp_data.h; sourceTree = "<group>"; };
+		6971E26E25958BF300B84481 /* sign.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sign.c; sourceTree = "<group>"; };
+		6971E26F25958BF300B84481 /* sc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sc.c; sourceTree = "<group>"; };
+		6971E27025958BF300B84481 /* ge.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ge.c; sourceTree = "<group>"; };
+		6971E27125958BF300B84481 /* fixedint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixedint.h; sourceTree = "<group>"; };
+		6971E27225958BF300B84481 /* add_scalar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = add_scalar.c; sourceTree = "<group>"; };
+		6971E27325958BF300B84481 /* sha512.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha512.h; sourceTree = "<group>"; };
+		6971E27425958BF300B84481 /* keypair.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = keypair.c; sourceTree = "<group>"; };
+		6971E29125958E9000B84481 /* ED25519.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ED25519.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +103,22 @@
 		694A09B424020DB2001F379C /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				6971E27225958BF300B84481 /* add_scalar.c */,
+				6971E26825958BF300B84481 /* fe.c */,
+				6971E26725958BF300B84481 /* fe.h */,
+				6971E27125958BF300B84481 /* fixedint.h */,
+				6971E27025958BF300B84481 /* ge.c */,
+				6971E26C25958BF300B84481 /* ge.h */,
+				6971E26525958BF200B84481 /* key_exchange.c */,
+				6971E27425958BF300B84481 /* keypair.c */,
+				6971E26D25958BF300B84481 /* precomp_data.h */,
+				6971E26F25958BF300B84481 /* sc.c */,
+				6971E26B25958BF300B84481 /* sc.h */,
+				6971E26625958BF200B84481 /* seed.c */,
+				6971E26925958BF300B84481 /* sha512.c */,
+				6971E27325958BF300B84481 /* sha512.h */,
+				6971E26E25958BF300B84481 /* sign.c */,
+				6971E26A25958BF300B84481 /* verify.c */,
 				694A09B724020DF6001F379C /* curve25519-donna-c64.c */,
 				694A09B524020DC5001F379C /* curve25519-donna.c */,
 			);
@@ -78,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				694A09C9240221CA001F379C /* Curve25519.swift */,
+				6971E29125958E9000B84481 /* ED25519.swift */,
 			);
 			path = wrapper;
 			sourceTree = "<group>";
@@ -85,6 +137,7 @@
 		694A09CF24024E38001F379C /* include */ = {
 			isa = PBXGroup;
 			children = (
+				6971E26225958BDB00B84481 /* ed25519.h */,
 				694A09D024024ED3001F379C /* curve.h */,
 			);
 			path = include;
@@ -98,7 +151,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				694A09AE240203B7001F379C /* Curve25519.h in Headers */,
+				6971E27D25958BF300B84481 /* precomp_data.h in Headers */,
+				6971E28325958BF300B84481 /* sha512.h in Headers */,
+				6971E27725958BF300B84481 /* fe.h in Headers */,
+				6971E28125958BF300B84481 /* fixedint.h in Headers */,
 				694A09D124024F0C001F379C /* curve.h in Headers */,
+				6971E27C25958BF300B84481 /* ge.h in Headers */,
+				6971E27B25958BF300B84481 /* sc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +189,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = hyperorchid;
 				TargetAttributes = {
 					694A09A8240203B7001F379C = {
@@ -172,9 +231,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6971E27625958BF300B84481 /* seed.c in Sources */,
 				694A09CA240221CA001F379C /* Curve25519.swift in Sources */,
+				6971E27825958BF300B84481 /* fe.c in Sources */,
+				6971E29225958E9000B84481 /* ED25519.swift in Sources */,
+				6971E28025958BF300B84481 /* ge.c in Sources */,
 				694A09B624020DC5001F379C /* curve25519-donna.c in Sources */,
+				6971E27925958BF300B84481 /* sha512.c in Sources */,
+				6971E27525958BF300B84481 /* key_exchange.c in Sources */,
+				6971E28225958BF300B84481 /* add_scalar.c in Sources */,
+				6971E27A25958BF300B84481 /* verify.c in Sources */,
+				6971E27E25958BF300B84481 /* sign.c in Sources */,
 				694A09B824020DF6001F379C /* curve25519-donna-c64.c in Sources */,
+				6971E28425958BF300B84481 /* keypair.c in Sources */,
+				6971E27F25958BF300B84481 /* sc.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +277,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -270,6 +341,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -316,13 +388,14 @@
 				INFOPLIST_FILE = Curve25519/Info.plist;
 				INFOPLIST_OUTPUT_FORMAT = "same-as-input";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 2.0;
 				MODULEMAP_FILE = "";
 				OTHER_CFLAGS = "-D__curve25519_32__";
 				PLIST_FILE_OUTPUT_FORMAT = "same-as-input";
@@ -357,13 +430,14 @@
 				INFOPLIST_FILE = Curve25519/Info.plist;
 				INFOPLIST_OUTPUT_FORMAT = "same-as-input";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 2.0;
 				MODULEMAP_FILE = "";
 				OTHER_CFLAGS = "-D__curve25519_32__";
 				PLIST_FILE_OUTPUT_FORMAT = "same-as-input";

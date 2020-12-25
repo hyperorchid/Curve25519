@@ -1,4 +1,5 @@
-module LibCurve25519 [system] {
+module Lib25519 [system] {
   header "include/curve.h"
+  header "include/ed25519.h"
   export *
 }

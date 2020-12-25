@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import LibCurve25519
+import Lib25519
 
 public let CurveKeySize = 32
 
@@ -41,7 +41,7 @@ public final class Curve25519: NSObject {
                 var share_key = Data(repeating: 0, count: CurveKeySize)
                 let secret = share_key.toMutCArray()
                 
-                let ret = LibCurve25519.curve25519_donna(secret, pri_data, pub_data)
+                let ret = Lib25519.curve25519_donna(secret, pri_data, pub_data)
                 
                 assert(ret != 0)
                 
